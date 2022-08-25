@@ -1,0 +1,6 @@
+A = 1 + 2 + 3 + 4
+B = 1 - 2 - 3 - 4
+C = 1 - 2 + 3 + 4
+D = ADD (SUBTRACT 2 FROM 6) TO 7
+PRINT
+QUIT

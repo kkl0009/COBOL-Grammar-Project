@@ -1,0 +1,23 @@
+S -> equation
+
+equation -> expression "GIVING" VAR
+   		  | VAR '=' expression
+
+expression -> NUMBER
+            | VAR1
+            | VAR2
+            | VAR3
+            | VAR4
+            | VAR5
+            | expression '+' expression
+            | expression '-' expression
+            | "ADD" expression "TO" expression
+            | "SUBTRACT" expression "FROM" expression
+            | '(' expression ')'
+
+
+VAR -> 'A'|'B'|'C'|'D'|'E'
+
+NUMBER -> 1|2|3|4|5|6|7|8|9
+        | NUMBER 0|1|2|3|4|5|6|7|8|9
+
